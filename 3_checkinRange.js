@@ -11,7 +11,7 @@ function displayError(){
     return null;
 }
 
-function checkNumberinRangeorNot(inputRange,numbertoCheck){
+function isNumberwithinRange(inputRange,numbertoCheck){
     if (typeof(inputRange[0]) != "number" || typeof(inputRange[1]) != "number" || typeof(numbertoCheck) != "number") return displayError();
 
     if (inputRange.length === 2 && inputRange[0]<inputRange[1]){
@@ -25,4 +25,5 @@ function checkNumberinRangeorNot(inputRange,numbertoCheck){
     }
 }
 
-console.log(checkNumberinRangeorNot(inputRange,numbertoCheck));
+console.log(isNumberwithinRange(inputRange,numbertoCheck));
+
