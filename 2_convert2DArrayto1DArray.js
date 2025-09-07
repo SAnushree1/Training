@@ -14,7 +14,7 @@ function convert2DArrayto1DArray(inputArray){
 
     if (!Array.isArray(inputArray)) return displayError();
 
-    let output1DArray = [];
+    const output1DArray = [];
     for (let i=0; i<inputArray.length;i++){
         let currentElement = inputArray[i];
         if (typeof(inputArray[i]) === "object"){
@@ -31,3 +31,4 @@ function convert2DArrayto1DArray(inputArray){
 
 
 console.log(convert2DArrayto1DArray(inputArray));
+
