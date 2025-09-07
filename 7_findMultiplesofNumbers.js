@@ -9,11 +9,11 @@ function displayError(){
     return null;
 }
 
-function findMultiplesofeachNumber(inputArray){
+function findMultiplesOfNumber(inputArray){
 
     if (!Array.isArray(inputArray)) return displayError();
 
-    let outputObject = [];
+    let outputArray = [];
     for (let i=1;i<11;i++){
         let multiplesGroup = {}; 
         if (i===1){
@@ -27,11 +27,11 @@ function findMultiplesofeachNumber(inputArray){
             }
             multiplesGroup[i] = multiples;
         }
-        console.log(multiplesGroup.length);
-        outputObject.push(multiplesGroup);
+        outputArray.push(multiplesGroup);
     }
 
-    return outputObject;
+    return outputArray;
 }
 
-console.log(findMultiplesofeachNumber(inputArray));
+
+console.log(findMultiplesOfNumber(inputArray));
