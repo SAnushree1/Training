@@ -16,16 +16,18 @@ function convert2DArrayto1DArray(inputArray){
 
     let output1DArray = [];
     for (let i=0; i<inputArray.length;i++){
+        let currentElement = inputArray[i];
         if (typeof(inputArray[i]) === "object"){
-            let currentElement = inputArray[i];
-            for (let j=0; j<currentElement.length;j++){
-                output1DArray.push(currentElement[j]);
+            let values = convert2DArrayto1DArray(currentElement);
+            for (let j=0; j<values.length;j++){
+                output1DArray.push(values[j]);
             }
         }else{
-            output1DArray.push(inputArray[i]);
+            output1DArray.push(currentElement);
         }
     }
     return output1DArray;
 }
+
 
 console.log(convert2DArrayto1DArray(inputArray));
