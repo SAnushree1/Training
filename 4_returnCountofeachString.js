@@ -17,7 +17,7 @@ function returnCountofeachString(inputArray){
         if (typeof(inputArray[i])!=="string"){
             continue;
         }else{
-            let key = inputArray[i].toLowerCase();
+            const key = inputArray[i].toLowerCase();
             if (outputObject[key] ===  undefined){
                 outputObject[key] = 1;
             }else{
@@ -28,5 +28,6 @@ function returnCountofeachString(inputArray){
 
     return outputObject;
 }
+
 
 console.log(returnCountofeachString(inputArray));
