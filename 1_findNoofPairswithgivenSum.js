@@ -18,19 +18,28 @@ function findNumberofPairswithgivenSum(inputArray, inputSum){
     
     if (!Array.isArray(inputArray) || typeof(inputSum)!== "number") return displayError();
 
-    let pairswithgivenSum = [];
+    let pairsWithGivenSum = [];
+    let seenPairs = {};
     for (let i=0; i<inputArray.length;i++){
-        for (let j=i; j<inputArray.length;j++){
+        for (let j=i+1; j<inputArray.length;j++){
             let sum = inputArray[i]+inputArray[j];
             if (sum === inputSum){
-                pairswithgivenSum.push([inputArray[i],inputArray[j]]);
+                // pairsWithGivenSum.push([inputArray[i],inputArray[j]]);
+                let a = inputArray[i];
+                let b = inputArray[j];
+                let key = (a<b) ? a + "," + b : b + "," + a;
+                if (!seenPairs[key]){
+                    pairsWithGivenSum.push([a,b]);
+                    seenPairs[key] = true;
+                }
             }else{
                 continue;
             }
         }
     }
-    console.log(pairswithgivenSum);
-    return pairswithgivenSum.length;
+    console.log(seenPairs);
+    return pairsWithGivenSum.length;
 }
+
 
 console.log(findNumberofPairswithgivenSum(inputArray,inputSum));
