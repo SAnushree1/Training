@@ -19,7 +19,7 @@ function findCommonIntialPersons(inputArray){
     for (let i=0;i<inputArray.length;i++){
         if (typeof(inputArray[i]) !== "string") continue;
         const name = inputArray[i].toLowerCase();
-        const firstLetter = name[0].toLowerCase();
+        const firstLetter = name[0];
         if(!output[firstLetter]){
             output[firstLetter] = [];
         }
@@ -43,5 +43,6 @@ function findCommonIntialPersons(inputArray){
     // console.log(output);
     return Object.values(output);
 }
+
 
 console.log(findCommonIntialPersons(inputArray));
