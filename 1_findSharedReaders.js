@@ -11,9 +11,10 @@
 
 const students = [
   { id: 0, name: "Arun", books: ["Wings of Fire", "Chakra"]},
-  { id: 1, name: "Ashok", books: ["Chakra", "War and Peace", "The Shining",2]},
+  { id: 1, name: "Ashok", books: ["Chakra", "War and Peace", "The Shining"]},
   { id: 2, name: "Balu", books: ["Wings of Fire", "All about Cricket"]},
-  { id: 3,name: "Cathi", books: ["Against the wind", "The Shining", "War and Peace"]}
+  { id: 3,name: "Cathi", books: ["Against the wind", "The Shining", "War and Peace"]},
+  { id: 4,name: "Arun", books: ["Against the wind", "The Shining", "War and Peace","Wings of Fire", "Chakra"]}
   ];
 
 function findHighestSharedReader(sharedReaders){
@@ -44,7 +45,7 @@ function findCommonBookInterestWithStudents(students){
             if (!commonReaders[book]){
                 commonReaders[book] = [];
             }
-            commonReaders[book].push(student.name);
+            commonReaders[book].push(student.name + "_" + student.id);
         }
     }
     console.log("Common Readers:", commonReaders);
@@ -54,7 +55,8 @@ function findCommonBookInterestWithStudents(students){
 function findSharedReaders(students){
     const sharedReaders = {};
     for (const student of students){
-        sharedReaders[student.name] = new Set();
+        const key = student.name + "_" + student.id;
+        sharedReaders[key] = new Set();
     }
     const commonReaders = findCommonBookInterestWithStudents(students);
     for (const book in commonReaders){
