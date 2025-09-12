@@ -99,12 +99,45 @@ const storeProductList = [{"sku":1,"price":"$94.11","product":"Jam - Apricot","Q
 {"sku":99,"price":"$11.63","product":"Hickory Smoke, Liquid","Quantity":10},
 {"sku":100,"price":"$70.68","product":"Tea - Herbal Sweet Dreams","Quantity":1}];
 
-const userGroceryList = [
-    { item: 'Jam - Apricot', quantity: 2 },
+const groceryList = [
+    { item: 'Jam - Apricot', quantity: 3 },
     { item: 'Creamers - 10%', quantity:1 },
   ]; 
 
-function generateBill(storeProductList, userGroceryList){
+function displayError(){
+    console.error("Invalid input");
+    return null;
+}
+
+function uniqueUserGroceryList(groceryList){
+    const merged = {};
+
+    for (let i = 0; i < groceryList.length; i++) {
+        if (groceryList[i].quantity < 0){
+            displayError();
+            continue;
+        }
+        const item = groceryList[i].item;
+        const quantity = groceryList[i].quantity;
+
+        if (merged[item]) {
+        merged[item] += quantity; 
+        } else {
+        merged[item] = quantity; 
+        }
+    }
+
+    const result = [];
+    for (let key in merged) {
+        result.push({ item: key, quantity: merged[key] });
+    }
+
+    return result;
+}
+
+function generateBill(storeProductList, groceryList){
+    const userGroceryList = uniqueUserGroceryList(groceryList);
+    if(userGroceryList.length<=0) return displayError();
     let totalBillAmount = 0;
     for (const productNeededByUser of userGroceryList){
         let productAvailable = false;
@@ -113,6 +146,7 @@ function generateBill(storeProductList, userGroceryList){
                 productAvailable = true;
                 if (productNeededByUser.quantity > productInStore.Quantity){
                     totalBillAmount += (productInStore.Quantity * productInStore.price.slice(1));
+                    console.log(`You wanted ${productNeededByUser.quantity} units of ${productNeededByUser.item}, but only ${productInStore.Quantity} are available. Added ${productInStore.Quantity} units to your bill.`);
                     productInStore.Quantity = 0;
                 }else{
                     totalBillAmount += (productNeededByUser.quantity * productInStore.price.slice(1));
@@ -127,6 +161,4 @@ function generateBill(storeProductList, userGroceryList){
     
     return totalBillAmount;
 }
-console.log("Total Bill Amount = ",generateBill(storeProductList, userGroceryList));
-console.log("Total Bill Amount = ",generateBill(storeProductList, userGroceryList));
-console.log("Total Bill Amount = ",generateBill(storeProductList, userGroceryList));
+console.log("Total Bill Amount = ",generateBill(storeProductList, groceryList));
