@@ -35,7 +35,7 @@ const todos = [
 
 function estimateWorkHours(people,todos){
     const personNames = {};
-    people.map(person => {
+    people.forEach(person => {
         personNames[person.id] = person.name;
     });
 
@@ -58,3 +58,4 @@ function estimateWorkHours(people,todos){
 }
 
 console.log(estimateWorkHours(people,todos));
+
