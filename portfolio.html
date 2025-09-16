@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="padding: 10px;">S Anushree</h1>
+        <p>Web Development Intern | Numentica UI</p>
+        <p>Email: anushree2004321@gmail.com | Phone: 6282516489</p>
+    </header>
+    <nav>
+        <a href="#summary">Summary</a> 
+        <a href="#skills">Skills</a> 
+        <a href="#project">Project</a> 
+        <a href="#education">Education</a> 
+        <a href="#contact">Contact</a> 
+    </nav>
+    <section id="summary">
+        <div class="home">
+            <figure class="img">
+                <img src="images/IMG-20240426-WA0040.jpg" alt="Portrait of person" width="400" height="300">
+                <!-- <figcaption>S Anushree — Web Development Intern</figcaption> -->
+            </figure>
+            <div class="intro">
+                <h1>S Anushree</h1>
+                <h3 style="color: rgb(58, 58, 58);padding: 10px;">Web Development Intern | Numentica UI</h3>
+                <p style="font-weight: 600;">My name is S Anushree, recent BTech Information Technology graduate from Government Engineering College Sreekrishnapuram. Currently, I'm beginning my career as a Web Development Intern at Numentica UI.</p>
+                <p style="font-weight: 600;">A recent IT graduate eager to contribute, learn, and grow in the ever-evolving world of technology. I’m passionate about solving real-world problems through clean, efficient, and innovative code.</p>
+            </div>
+        </div>
+    </section>
+    <section id = "skills">
+        <h2>Skills</h2>
+        <table>
+            <tr>
+                <th>Programming Languages</th>
+                <th>Python, JavaScript, C</th>
+            </tr>
+            <tr>
+                <th>Web Development</th>
+                <th>HTML5, CSS3, Node.js</th>
+            </tr>
+            <tr>
+                <th>Databases and Tools</th>
+                <th>MySQL, PostgresSQL, GitHub</th>
+            </tr>
+            <tr>
+                <th>Soft Skills</th>
+                <th>Problem solving, Adaptability, Teamwork</th>
+            </tr>
+        </table>
+    </section>
+    <section id="project">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Automated Cyberbullying Report Generation System</h3>
+            <ul>
+            <li>Developed a web application to detect and analyze cyberbullying content.</li>
+            <li>Integrated APIs from Facebook, Instagram, YouTube, and Twitter to fetch user comments and posts.</li>
+            <li>Automated report generation and complaint filing for streamlined cyberbullying monitoring.</li>
+            <li><strong>Tech Stack:</strong> Python (Flask), JavaScript, HTML, CSS, REST API Integration, ML, NLP</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>AI-Powered YouTube Marketing Analytics</h3>
+            <ul>
+            <li>Engineered a web application to pinpoint ideal YouTube influencers for brand collaborations.</li>
+            <li>Integrated YouTube Data API to collect performance metrics and automate influencer assessment.</li>
+            <li>Applied advanced NLP techniques to analyze video content and measure audience alignment.</li>
+            <li><strong>Tech Stack:</strong> Python (Flask), JavaScript, HTML, CSS, NLP, YouTube Data API, Firebase</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id = "education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institute & Board</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <th>BTech Information Technology</th>
+                <th>Government Engineering College Sreekrishnapuram, KTU</th>
+                <th>2025</th>
+                <th>81%</th>
+            </tr>
+            <tr>
+                <th>H S E</th>
+                <th>GHSS Pottassery</th>
+                <th>2021</th>
+                <th>99%</th>
+            </tr>
+            <tr>
+                <th>SSLC</th>
+                <th>M.E.T.E.M.H.S.S</th>
+                <th>2019</th>
+                <th>95</th>
+            </tr>
+        </table>
+    </section>
+    <section id = "contact">
+        <h2>Contact me</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your mail" required/>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Service required" rows="5" required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send" />
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025. All rights reserved.</p>
+    </footer>
+</body>
+</html>
