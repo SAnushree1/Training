@@ -42,6 +42,9 @@ function reassignSuggest(todos, people) {
     workloadMap[person.id] = 0;
     if (person.capacityHrsPerDay === 0) zeroCapacity[person.id] = person.name;
   }
+  // console.log(zeroCapacity);
+  // console.log(capacityMap);
+  
 
   for (let i = 0; i < todos.length; i++) {
     const task = todos[i];
@@ -49,36 +52,36 @@ function reassignSuggest(todos, people) {
         continue;
     workloadMap[task.assigneeId] += task.estimateHrs;
   }
+  
+  // console.log(workloadMap);
 
+  const availablePeople = people.filter(p => p.capacityHrsPerDay > 0).map(p => {
+    const capacity = capacityMap[p.id];
+    const workload = workloadMap[p.id] || 0;
+    const remaining = capacity - workload;
+    return { id: p.id, name: p.name, remaining };
+  });
+  // console.log(availablePeople);
+  
   const result = [];
 
   for (let i = 0; i < todos.length; i++) {
     const task = todos[i];
     if (task.status === "done" || !task.assigneeId) 
         continue;
-    const personId = task.assigneeId;
-    if (!zeroCapacity[personId]) 
-        continue;
 
-    let freePerson = null;
-    for (let j = 0; j < people.length; j++) {
-      const person = people[j];
-      if (person.capacityHrsPerDay === 0) 
-        continue;
-      const capacity = capacityMap[person.id];
-      const workload = workloadMap[person.id];
-      if (workload + task.estimateHrs <= capacity) {
-        freePerson = person.name;
-        break;
+    if (zeroCapacity[task.assigneeId]) {
+        const possibleAssignees = availablePeople
+        .filter(p => p.remaining >= task.estimateHrs)
+        .map(p => p.name);
+
+      if (possibleAssignees.length > 0) {
+        result.push({
+          todoId: task.id,
+          fromPerson: zeroCapacity[task.assigneeId],
+          toPersonSuggested: possibleAssignees.length === 1 ? possibleAssignees[0] : possibleAssignees
+        });
       }
-    }
-
-    if (freePerson) {
-      result.push({
-        todoId: task.id,
-        fromPerson: zeroCapacity[personId],
-        toPersonSuggested: freePerson
-      });
     }
   }
 
