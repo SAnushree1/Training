@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    background-color: rgba(250, 237, 235, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+}
+
+.header-icons{
+    display: flex;
+    color: white;
+    gap: 1rem;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icons img{
+    width: 20px;
+    height: 20px;
+}
+
+.orders{
+    margin: 2rem 4rem;
+}
+
+.content{
+    display: flex;
+}
+
+.left{
+    flex: 3;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.order-details, .address{
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.price{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.product{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.center-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-1, .center-3{
+    flex: 1;
+}
+
+.center-2{
+    flex: 3;
+}
+
+.center-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qty{
+    display: flex;
+    gap: 4rem;
+    margin: 1.5rem 0;
+}
+
+.upper{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .center-div{
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+    }
+    .right{
+        display: none;
+    }
+}
+
+.button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#gray-text{
+    color: gray;
+    margin: .5rem 0;
+}
+
+#bold-text{
+    font-weight: bold;
+}
