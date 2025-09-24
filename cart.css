@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(255, 238, 230); */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+}
+
+.header-icons{
+    display: flex;
+    color: white;
+    gap: 1rem;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icons img{
+    width: 20px;
+    height: 20px;
+}
+
+.cart-image{
+    display: flex;
+    /* height: 90vh; */
+}
+
+.cart-left, .cart-right{
+    flex: 1;
+    margin: 2rem;
+}
+
+.left-upper{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left-lower{
+    display: flex;
+    justify-content: center;
+}
+
+.left-lower img{
+    border: 2px solid red;
+    margin: 0.25rem; 
+}
+
+.name-div, .price-div{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.name-div{
+    margin: 1rem 0;
+    color: rgba(34, 143, 143, 1);
+}
+
+#colorbtn{
+    padding: 10px;
+    color: white;
+    background-color: rgb(86, 86, 86);
+    border-radius: 20px;
+}
+
+#button{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.button p{
+    margin: 2rem 0.5rem;
+}
+
+#price-style{
+    font-size: 32px; 
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .cart-image{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart-right{
+        font-size: small;
+    }
+}
+
+.cart-content{
+    margin: 2rem;
+}
+
+.product-details{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.details{
+    color: rgb(84, 84, 84);
+}
+
+.details a{
+    text-decoration: none;
+    color: gray;
+}
+
+.details:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(255, 69, 69);
+    padding-bottom: 10px;
+}
+
+.product-description{
+    background-color: rgb(246, 246, 246);
+    padding: 0.5rem;
+}
+
+#description h3 ,#howtouse h3, #product-specification h3,#ingredients h3{
+    margin-top: 2rem;
+    color: gray;
+}
+
+#description p, #howtouse p,#product-specificatio p, #ingredients p{
+    margin: 1rem 2rem 0 0;
+}
+
+#ingredients ul{
+    margin: 1rem 2rem ;
+}
+
+table{
+    margin: 1rem 0;
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: left;
+    padding: 0.75rem ;
+    border-bottom: 1px solid rgb(169, 169, 169);
+}
+
+
