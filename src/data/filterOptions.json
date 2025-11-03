@@ -1,0 +1,29 @@
+{
+  "brands": [
+    { "id": "anveya", "label": "Anveya", "value": "Anveya" },
+    { "id": "biotique", "label": "Biotique", "value": "Biotique" },
+    { "id": "livon", "label": "Livon", "value": "Livon" },
+    { "id": "matrix", "label": "Matrix", "value": "Matrix" },
+    { "id": "streax", "label": "Streax", "value": "Streax" }
+  ],
+  "subCategory1": [
+    { "id": "dry-hair", "label": "Dry Hair", "value": "dry-hair" },
+    { "id": "curly", "label": "Curly", "value": "curly" },
+    { "id": "damaged", "label": "Damaged", "value": "damaged" },
+    { "id": "split-ends", "label": "Split Ends", "value": "split-ends" },
+    { "id": "fine", "label": "Fine", "value": "fine" },
+    { "id": "frizzy", "label": "Frizzy", "value": "frizzy" },
+    { "id": "color-treated", "label": "Color-Treated", "value": "color-treated" }
+  ],
+  "subCategory2": [
+    { "id": "daily-use", "label": "Daily Use", "value": "daily-use" },
+    { "id": "hydrating", "label": "Hydrating", "value": "hydrating" },
+    { "id": "repair", "label": "Repair", "value": "repair" },
+    { "id": "night-care", "label": "Night Care", "value": "night-care" },
+    { "id": "party", "label": "Party", "value": "party" },
+    { "id": "smoothing", "label": "Smoothing", "value": "smoothing" },
+    { "id": "office", "label": "Office", "value": "office" },
+    { "id": "anti-frizz", "label": "Anti-Frizz", "value": "anti-frizz" },
+    { "id": "shine", "label": "Shine", "value": "shine" }
+  ]
+}
