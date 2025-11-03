@@ -1,0 +1,499 @@
+[
+  {
+    "id": 1,
+    "name": "Hydrating Shampoo",
+    "brand": "Anveya",
+    "subcategory1": [
+      "Dry-Hair",
+      "Curly"
+    ],
+    "subcategory2": [
+      "Daily-Use",
+      "Hydrating"
+    ],
+    "price": 1900,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Hydrates and nourishes dry and curly hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product1.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 15
+  },
+  {
+    "id": 2,
+    "name": "Repair Conditioner",
+    "brand": "Biotique",
+    "subcategory1": [
+      "Damaged",
+      "Split-Ends"
+    ],
+    "subcategory2": [
+      "Repair",
+      "Night-Care"
+    ],
+    "price": 2400,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Repairs Split-Ends and damaged hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product2.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "name": "Volumizing Hair Serum",
+    "brand": "Livon",
+    "subcategory1": [
+      "Fine",
+      "Frizzy"
+    ],
+    "subcategory2": [
+      "Party",
+      "Smoothing"
+    ],
+    "price": 699,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Adds volume and smoothness to fine and frizzy hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product3.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "name": "Frizz Control Cream",
+    "brand": "Matrix",
+    "subcategory1": [
+      "Frizzy",
+      "Curly"
+    ],
+    "subcategory2": [
+      "Office",
+      "Anti-Frizz"
+    ],
+    "price": 900,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Smooths frizz and controls curls for a polished look.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product4.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 18
+  },
+  {
+    "id": 5,
+    "name": "Shine Enhancing Serum",
+    "brand": "Streax",
+    "subcategory1": [
+      "Color-Treated",
+      "Dry-Hair"
+    ],
+    "subcategory2": [
+      "Daily-Use",
+      "Shine"
+    ],
+    "price": 1300,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Enhances shine and nourishes color-treated or Dry-Hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product5.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 20
+  },
+  {
+    "id": 6,
+    "name": "Shine Enhancing Serum",
+    "brand": "Streax",
+    "subcategory1": [
+      "Color-Treated",
+      "Dry-Hair"
+    ],
+    "subcategory2": [
+      "Daily-Use",
+      "Shine"
+    ],
+    "price": 2100,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Enhances shine and nourishes color-treated or Dry-Hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product6.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 20
+  },
+  {
+    "id": 7,
+    "name": "Shine Enhancing Serum",
+    "brand": "Streax",
+    "subcategory1": [
+      "Color-Treated",
+      "Dry-Hair"
+    ],
+    "subcategory2": [
+      "Daily-Use",
+      "Shine"
+    ],
+    "price": 1000,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Enhances shine and nourishes color-treated or Dry-Hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product7.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 20
+  },
+  {
+    "id": 8,
+    "name": "Shine Enhancing Serum",
+    "brand": "Streax",
+    "subcategory1": [
+      "Color-Treated",
+      "Dry-Hair"
+    ],
+    "subcategory2": [
+      "Daily-Use",
+      "Shine"
+    ],
+    "price": 1500,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Enhances shine and nourishes color-treated or Dry-Hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product8.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 20
+  },
+  {
+    "id": 9,
+    "name": "Shine Enhancing Serum",
+    "brand": "Streax",
+    "subcategory1": [
+      "Color-Treated",
+      "Dry-Hair"
+    ],
+    "subcategory2": [
+      "Daily-Use",
+      "Shine"
+    ],
+    "price": 2000,
+    "originalPrice": "2999",
+    "rating": "3.5",
+    "description": "Enhances shine and nourishes color-treated or Dry-Hair.",
+    "longDescription": {
+      "loremIpsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "overview": "Featuring luxurious Rosehip and soothing Orange essential oil, this lip butter gently penetrates deep into the skin for velvety soft lips. Anti-oxidant rich Rosehip stimulates collagen production and helps reduce lip wrinkles and lines, making it look plump. Almond and Avocado have hydrating fatty acids that get easily absorbed and work to deeply nourish the skin. While Vitamin E acts as a powerful antioxidant and promotes healthy skin. Carnuba Wax locks in the moisture and hydrates to provide relief to dry skin.",
+      "howToUse": "Twist the stick slightly and roll it onto the lips whenever lips feel dry and chapped.",
+      "productSpecification": {
+        "brandName": "Myoho Pure by Priyanka",
+        "weight": "120 g",
+        "dimensions": "12 x 11 x 8 cm",
+        "soldBy": "Priyanka Healthcare Pvt Ltd",
+        "shippedFrom": "Navi Mumbai, Mumbai"
+      },
+      "ingredients": [
+        "Rosehip oil",
+        "Avocado oil",
+        "Vitamin E",
+        "Almond oil",
+        "Fresh Orange extract",
+        "Carnuba Wax"
+      ],
+      "claims": [
+        "100% Toxin-free",
+        "Certified Organic by Ecocert Greenlife (COSMOS Standard)",
+        "Free from Alcohol, Mineral Oil, Synthetic Fragrance, Colors, Parabens, BHT/BHA, Sulphates, Silicones",
+        "GMO-Free",
+        "Cruelty-Free"
+      ],
+      "manufacturing": {
+        "madeIn": "India",
+        "facility": "GMP Certified, State FDA registered, ISO 9001:2015 & Ecocert Approved"
+      }
+    },
+    "image": "/assets/product9.png",
+    "more-images": [
+      "/assets/product4.png",
+      "/assets/product7.png",
+      "/assets/product6.png"
+    ],
+    "stock": 20
+  }
+]
