@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+    --color-warm-red:rgba(185, 60, 26);
+    --color-pale-pink:rgba(226, 215, 214, 1);
+    --color-dark-green:rgba(87, 176, 164, 1);
+    --color-pale-green:rgba(216, 238, 243, 1);
+    --color-pale-yellow:rgba(242, 201, 76, 0.5);
+}
